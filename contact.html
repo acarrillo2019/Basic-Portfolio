@@ -10,7 +10,7 @@
 </head>
 
 <header>
-    <a href="index.html">
+    <a href="index.html" id="headername">
         <h1>Alfredo Carrillo</h1>
     </a>
     <ul>
@@ -25,34 +25,44 @@
     <form>
         <h1>Contact</h1>
         <section>
+            <h2>
             <label>Name</label>
             <input type="text" name="firstname"><br>
+            </h2>
         </section>
         <section>
+            <h2>
             <label>E-mail</label>
             <input type="text" name="lastname">
+            </h2>
         </section>
         <section class="contactreason">
-            <label for="sauce">Reason for Contact</label>
+            <h2>
+            <label for="contactreasons">Reason for Contact</label>
             <input list="reasons" id="contactreasons" name="conreasons">
             <datalist id="reasons">
                 <option value="Commissions"></option>
                 <option value="Feedback"></option>
                 <option value="Other"></option>
             </datalist>
+            </h2>
         </section>
         <section>
+            <h2>
             <label>Message</label>
             <input type="text" name="firstname"><br>
+            </h2>
         </section>
         <section class="submission">
+            <h2>
             <input type="submit" value="Submit">
+            </h2>
         </section>
     </form>
 
 </body>
-<br>
-<br>
+    <br>
+    <br>
 <footer> Copyright &copy; </footer>
 
 </html>
