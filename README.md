@@ -1,6 +1,5 @@
 # Basic-Portfolio
+This project is a Coding Bootcamp assigned website. Instructions are to 
+create a website that mirrors the reference images as close as possible.
 
-- Fixed landing page links
-- Adjusted background CSS animation
-- Adjusted landing page text
-- Removed link decorations via CSS
+- Added comment in style.css
