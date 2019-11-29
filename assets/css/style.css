@@ -1,8 +1,13 @@
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
 
 html, body {
     margin: 0;
@@ -51,8 +56,11 @@ a:link {
 .bodyback {
     display: inline-block;
     position: relative;
-    padding: 30px;
+    width: 100%;
+    padding: 20px;
     background-color: white;
+    height: auto;
+    display: flex;
   
 }
 
@@ -71,21 +79,21 @@ a:link {
     padding: 20px;
     background-color: teal;
     width: 180px;
-    height: 30px;
+    height: 50px;
     
 }
 
 .name  h1{
     position: relative;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
-    top: 5px;  
+    top: -3px;  
     color: #fff;
     font-size: 20px; 
 }
 
 .navlinks {
-    padding-top: 36px;
+    padding-top: 20px;
     display: inline-block;
     position: relative;
     float: right;
@@ -97,22 +105,40 @@ a:link {
     padding: 10px;
 }
 
-.maincontainer {
+.pagecontent {
+    display: inline-block;
     position: relative;
-    background-image: url(checkerboard-cross.png);
-    background-size: contain;
-    flex-grow : 1;
-    
+    width: 100%;
+    height: 100%;
+    display: flex;
+  flex-direction: column;
+  overflow: hidden;
     
 }
 
+.maincontainer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    background-image: url(checkerboard-cross.png);
+   
+    flex-grow : 1;
+}
+
+
+
 .mainbox {
     background-color: white;
+    width: 960px;
     max-width: 960px;
+    min-width: 400px;
     margin: 0 auto;
     position: relative;
     height: 100%;
+    margin: 0 auto;
+    display: flex;
 }
+
 
 .mainsection {
     position: relative;
