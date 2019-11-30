@@ -4,6 +4,7 @@ create a website that mirrors the reference images as close as possible.
 
 Changes since last versiion:
 
-- Applied CSS styling to all pages
-- Deleted duplicate 'About Me' page
-- Added additional HTML classes
+- Fixed CSS scrolling issues
+- Adjusted and fixed Portfolio page
+- Adjusted Contact page
+- Tightened page position relationships
