@@ -11,75 +11,52 @@
 </head>
 
 <body>
-
-<div class="pagecontent">
-        <div class="bodyback"></div>
-        <header class="context">
-               
-                <div class="nameblock"> 
-                    <div class="name">
-                        <a href="index.html">
-                            <h1>Alfredo Carrillo</h1>
-                        </a>
-                    </div>
-                </div>
-                
-            
-                <div class="navlinks">
-                    
-                    <a href="index.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="contact.html">Contact</a>
-                            
-                    
-                </div>
-            </header>
+    <header class="context">
+        <div class="container">
+            <a href="index.html" id="logo">
+                Alfredo Carrillo
+            </a>
+            <nav class="navlinks">
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
 
     <div class="maincontainer">
-        <div class="mainbox">
-            <div class="mainsection">
-                <div class="aboutme"> 
-                    <h1>Contact</h1>
-                </div>  
-
-                <form>
-                        <h1>Contact</h1>
-                        <section>
-                            <h2>
-                            <label>Name</label>
-                            <input type="text" name="firstname"><br>
-                            </h2>
-                        </section>
-                        <section>
-                            <h2>
-                            <label>E-mail</label>
-                            <input type="text" name="lastname">
-                            </h2>
-                        </section>
-                        <section>
-                            <h2>
-                            <label>Message</label>
-                            <input type="text" name="firstname"><br>
-                            </h2>
-                        </section>
-                        <section class="submission">
-                            <h2>
-                            <input type="submit" value="Submit">
-                            </h2>
-                        </section>
-                    </form>
-
-                </div>
-            </div>
             
-        </div>
-     
-        <div class="bottomborder"></div>
-    <footer> Copyright &copy; </footer>
-    </div>
-    
-</div>
+        <section class="mainsection">
+          <h1>Contact</h1>
+    <form id="contact-form">
+        <ul>
+            <li>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="John Smith"
+                required="required">
+            </li>
+            <li>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" placeholder="Example@gmail.com"
+                required="required">
+            </li>
+            <li>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="Example@gmail.com"
+                required="required"></textarea>
+            </li>
+        </ul>
+        <input type="submit" name="submit">
+    </form>    
+        </section>
 
+            
+
+    </div>
+
+    <footer> 
+    <div class="container">Copyright &copy</div>
+    </footer>
 </body>
 
 
