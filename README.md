@@ -2,7 +2,7 @@
 This project is a Coding Bootcamp assigned website. Instructions are to 
 create a website that mirrors the reference images as close as possible.
 
-Changes since last versiion:
+Changes since last version:
 
 - Complete overhaul of CSS code
 - CSS and HTML are streamlined for efficient loading
